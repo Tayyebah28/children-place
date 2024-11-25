@@ -1,0 +1,98 @@
+.flash-news{
+list-style-type: none;
+display: flex;
+margin: 0;
+}
+.blue{
+    background-color: rgb(115, 115, 235);
+}
+.flash-news li a{
+    padding:12px ;
+}
+
+
+
+
+
+.full-img{
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+.top-rated-wrap{
+    display: flex;
+}
+.top-rated-item{
+    background-color: brown;
+    width: 50%;
+    margin: 6px;
+}
+.top-rated-item img{
+    width: 100%;
+}
+.promotional-img{
+    width: 100%;
+}
+.essential-items-wrapper{
+    display: flex;
+    margin: 6px;
+}
+.essential-item{
+    background-color: aqua;
+    width: 33.33%;
+    margin: 6px;
+}
+.essential-item img{
+    width: 100%;
+}
+.essential-item h3, .essential-item h2, .essential-item p{
+    margin: 0;
+    text-align: center;
+}
+.main-menu{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+.main-menu li{
+    margin: 10px;
+    
+}
+.main-menu a{
+    text-decoration: none;
+    color: black;
+}
+.search-bar{
+    width: 100%;
+    height: 60px;
+background-color: rgb(60, 60, 174);
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.essential-icons li{
+    list-style-type: none;
+    margin: 6px;
+   
+}
+.essential-icons{
+    display: flex;
+  
+}
+.essential-icons li a{
+    color: azure;
+}
+.logo img{
+    width: 80px;
+    padding-left: 24ox;
+}
+.input-box input{ 
+    height: 40px;
+    width: 400px;
+    border-radius: 50px;
+    border-width: 0;
+    padding-left: 16px;
+}
